@@ -1,4 +1,4 @@
-import { cardData } from "../card.js"
+import { cardData } from "../card.js";
 
 import { cityData } from "./cities/cities.js";
 import { landmarkData } from "./landmarks/landmarks.js";
@@ -10,11 +10,11 @@ const allPeople = peopleData();
 
 
 
-export const listData = (dataList, tagId) => {
+export const icelandData = (dataList, tagId) => {
     const DOMLocation = document.querySelector(tagId);
     let HTMLRep = "<div>";
-    for(const data in dataList){
-        HTMLRep += "<article>" + cardData(data) + "</article>";
+    for(const data of dataList){
+        HTMLRep += cardData(data);
     }
     HTMLRep += "</div>";
 
