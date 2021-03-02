@@ -1,18 +1,40 @@
+
 @import "navbar.css";
+
+
 
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
  */
 
 
-.cardImage img {
+
+.container {
+    display:flex;
+    /* width: 30%; */
+    justify-content: space-around;
+    
+}
+.infocolumn {
+    flex-direction: column;
+    /* width: 30%; */
+    text-align: center;
+    justify-content: space-around;
+    margin: 1.5rem;
+    background:#9ffff5
+
+}
+
+.cardImage {
+    object-fit: contain;
     width: 100%;
-    height: auto;
+    max-width: 250px;
+    /* height: auto; */
 }
 
 .header img{}
