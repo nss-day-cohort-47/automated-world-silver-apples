@@ -18,9 +18,13 @@ body {
 h1 {
     text-align: center;
     padding: 1rem;
+    background: #6ABEA7;
 }
+
 header img {
     padding: 1.5rem;
+    width: 100%;
+
 
 }
 .container {
@@ -54,6 +58,13 @@ header img {
 h2 {
     text-align: center;
     padding: 2rem 0;
+}
+
+footer {
+    background: #6ABEA7;
+    padding: 1rem;
+    text-align: center;
+
 }
 .header img{}
 
