@@ -1,9 +1,14 @@
+@import "navbar.css";
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 1px solid black;
 }
+ */
+
 
 .cardImage img {
     width: 100%;

@@ -19,9 +19,9 @@
 }
 
 .nav a:hover:not(.active) {
-  background-color: # `;
+  background-color: #4c98bb73;
 }
 
 .active {
-  background-color: #53697373;
+  background-color: #0a0a0a73;
 }
