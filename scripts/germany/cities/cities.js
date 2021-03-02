@@ -7,6 +7,5 @@ const cities = [
 
 
 export const cityData = () => {
-    console.log(cities);
-    return cities;
+        return cities;
 }

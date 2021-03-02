@@ -11,5 +11,3 @@ const people = [
 export const peopleData = () => {
     return people;
 }
-
-console.log(peopleData());

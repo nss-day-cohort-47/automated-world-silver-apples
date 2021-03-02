@@ -69,3 +69,9 @@ footer {
 .header img{}
 
 .mainImage img{}
+
+header h4{    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+    background: #6ABEA7;
+}
