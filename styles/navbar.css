@@ -4,6 +4,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #536973;
+    border-radius: 5px;
 }
   
 .nav {
