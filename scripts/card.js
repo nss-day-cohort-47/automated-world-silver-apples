@@ -2,9 +2,11 @@ export const cardData = (data) => {
 
     return (
         `
+        <article  class="infocolumn">
         <h2>${data.name}</h2>
-        <img src="${data.image}" alt="${data.alt}">
-        <a href="${data.link}">Learn More</a>
+        <img class="cardImage" src="${data.image}" alt="${data.alt}">
+        <p><a href="${data.link}">Learn More</a></p>
+        </article>
         `
     );
 }
